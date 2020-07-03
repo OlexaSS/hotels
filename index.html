@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto+Condensed&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo header__logo animate__animated animate__backInDown animate__delay-1s">
+            <a href="#" class="logo__link">
+                <img src="img/logo.png" alt="logo" class="logo__link--img">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul class="menu__list animate__animated animate__backInLeft animate__delay-2s">
+                <li class="menu__list-item"><a href="#" class="menu__list-link menu__list-link--active">О сервисе</a></li>
+                <li class="menu__list-item"><a href="#" class="menu__list-link">Отели</a></li>
+                <li class="menu__list-item"><a href="#" class="menu__list-link">Номера</a></li>
+                <li class="menu__list-item"><a href="#" class="menu__list-link">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+     <section class="slider">
+        <div class="slider__item" style="background-image: url(img/slide-1.jpg)"></div>
+        <div class="slider__item" style="background-image: url(img/slide-2.jpg)"></div>
+        <div class="slider__item" style="background-image: url(img/slide-3.jpg)"></div>
+    </section>
+    <section class="search">
+        <div class="search__inner">
+            <form class="search__form">
+                <label class="search__form-label">Поиск апартаментов</label>
+                <input type="text" placeholder="Введите город" class="search__form-input">
+                <button class="search__form-btn" type="submit">Найти</button>
+            </form>
+        </div>
+    </section>
+    <section class="popular">
+        <h3 class="popular__title">
+            Самые популярные отели мира
+        </h3>
+        <div class="container">
+            <div class="popular__inner">
+                <div class="popular__item wow animate__animated animate__bounceInUp" data-wow-offset="300" data-wow-delay="1s">
+                    <img src="img/photo-1.jpg" alt="" class="popular__img">
+                    <h5 class="popular__item-title">Камера <br> 5 звезд</h5>
+                    <a href="#" class="popular__item-link">детали</a>
+                </div>
+                <div class="popular__item wow animate__animated animate__bounceInUp" data-wow-offset="300" data-wow-delay="1.2s">
+                    <img src="img/photo-2.jpg" alt="" class="popular__img">
+                    <h5 class="popular__item-title">Апартаменты <br> Египет</h5>
+                    <a href="#" class="popular__item-link">детали</a>
+                </div>
+                <div class="popular__item wow animate__animated animate__bounceInUp" data-wow-offset="300" data-wow-delay="1.4s">
+                    <img src="img/photo-3.jpg" alt="" class="popular__img">
+                    <h5 class="popular__item-title">Utopia World <br> Турция</h5>
+                    <a href="#" class="popular__item-link">детали</a>
+                </div>
+                <div class="popular__item wow animate__animated animate__bounceInUp" data-wow-offset="300" data-wow-delay="1.6s">
+                    <img src="img/photo-4.jpg" alt="" class="popular__img">
+                    <h5 class="popular__item-title">Патаи <br> Тайланд</h5>
+                    <a href="#" class="popular__item-link">детали</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reason">
+        <div class="container">
+            <div class="reason__inner wow animate__animated animate__fadeInUp" data-wow-offset="200">
+                <div class="reason__item">
+                    <h4 class="reason__title reason__title--icon-1">Мы экономим Ваше время и Ваши деньги</h4>
+                    <p class="reason__text">Вы можете легко подобрать себе самые лучшие апартаменты для аренды на нашем сайте по выгодной цене. Наши менеджеры с удовольствием помогут Вам и ответят на все вопросы.</p>
+                    <a class="reason__link" href="#">Подробнее</a>
+                </div>
+                <div class="reason__item">
+                    <h4 class="reason__title reason__title--icon-2">Арендуйте лучшую недвижимость в крупных городах</h4>
+                    <p class="reason__text">Наша база элитных отелей насчитывает более 5000 вариантов в крупных городах мира.Мы поможем Вам выбрать самый лучший, также предоставим дополнительный сервис</p>
+                    <a class="reason__link" href="#">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="best" style="background-image: url(img/home.jpg)">
+        <div class="container">
+            <h3 class="best__title">
+                Отель La Reserve в Бельгии
+            </h3>
+            <a href="#" class="best__link">Забронировать</a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="our-menegers">
+                    <h4 class="our-menegers__title about__title">Наши менеджеры</h4>
+                    <div class="our-menegers__items">
+                        <div class="our-menegers__item">
+                            <img class="our-managers__img" src="img/personal-1.jpg" alt="">
+                            <ul class="our-menegers__list">
+                                <li class="our-menegers__name">Олег</li>
+                                <li class="our-menegers__age">35 лет</li>
+                                <li class="our-menegers__location">Киев</li>
+                            </ul>
+                            <button class="our-menegers__btn">Связаться</button>
+                        </div>
+                        <div class="our-menegers__item">
+                            <img class="our-managers__img" src="img/personal-2.jpg" alt="">
+                            <ul class="our-menegers__list">
+                                <li class="our-menegers__name">Вика</li>
+                                <li class="our-menegers__age">30 лет</li>
+                                <li class="our-menegers__location">Москва</li>
+                            </ul>
+                            <button class="our-menegers__btn">Связаться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq">
+                    <h4 class="about__title">
+                        Частые вопросы
+                    </h4>
+                    <ul class="faq__list">
+                        <li class="faq__item"><a class="faq__link" href="#">Как забронировать отельный номер?</a></li>
+                        <li class="faq__item"><a class="faq__link" href="#">Как оплатить отельный номер?</a></li>
+                        <li class="faq__item"><a class="faq__link" href="#">Можно ли внести изменения в заказ?</a></li>
+                        <li class="faq__item"><a class="faq__link" href="#">Как аннулировать созданный заказ?</a></li>
+                        <li class="faq__item"><a class="faq__link" href="#">Включены ли налоги в стоимость номера?</a>
+                        </li>
+                        <li class="faq__item"><a class="faq__link" href="#">Что делать, если я не заселился в отель?</a>
+                        </li>
+                        <li class="faq__item"><a class="faq__link" href="#">Как оплатить бронирование?</a></li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h4 class="about__title">
+                        Отзывы
+                    </h4>
+                    <img class="reviews__img" src="img/comments.jpg" alt="">
+                    <div class="reviews__text">
+                        Мы собираем и публикуем отзывы путешественников, а также добавляем отзывы TripAdvisor. Так вы
+                        получаете ещё больше информации об отеле.
+                    </div>
+                    <a href="#" class="reviews__link">Все отзывы</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer-top__inner">
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><a class="footer__menu-link" href="#">О нас </a></li>
+                            <li class="footer__menu-item"><a class="footer__menu-link" href="#">Отели</a></li>
+                            <li class="footer__menu-item"><a class="footer__menu-link" href="#">Апартаменты</a></li>
+                            <li class="footer__menu-item"><a class="footer__menu-link" href="#">Отзывы</a></li>
+                            <li class="footer__menu-item"><a class="footer__menu-link" href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <form class="footer__form">
+                        <label class="footer__form-label">Связаться <br> с нами</label>
+                        <input class="footer__form-input" type="text" placeholder="Задать вопрос">
+                        <button class="footer__form-btn" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="logo footer__logo">
+            <a href="#" class="logo__link">
+                <img src="img/logo.png" alt="logo" class="logo__link--img">
+            </a>
+        </div>
+    </footer>
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
